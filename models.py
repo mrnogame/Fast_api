@@ -9,7 +9,7 @@ class Gender (str,Enum):
 
 class Role (str, Enum):
      admin = "admin"
-     user ="User"
+     user ="user"
      student = "student"
 
 class User(BaseModel):
